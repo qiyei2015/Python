@@ -28,3 +28,21 @@ msg3 = "  I love Python    "
 print(msg3.strip())
 print(msg3.lstrip())
 print(msg3.rstrip())
+
+# 运算
+msg4 = 2 + 2 * 5
+print(msg4)
+
+# 乘方
+msg5 = 4 ** 3
+print(msg5)
+
+msg5 = 3 / 2
+print(msg5)
+
+print(0.1 + 0.2)
+
+# str 将非字符转为字符
+msg5 = "happy " + str(msg4) + " birthday"
+print(msg5)
+
